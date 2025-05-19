@@ -3,7 +3,7 @@
 Projeto acadêmico desenvolvido com o objetivo de simular uma plataforma de informações de áudios digitais, como músicas e podcasts — inspirado no Spotify.
 
 ## 🧑‍💻 Desenvolvido por
-**Paulo Ricardo**  
+**Paulo Ricardo Bezerra R.A = 22.223.015-3 **  
 Centro Universitário FEI – Ciência da Computação
 
 ---
