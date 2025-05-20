@@ -34,9 +34,9 @@ Centro Universitário FEI – Ciência da Computação
 ## 🗂 Estrutura do Projeto
 
 src/
-├── view/ # Telas do sistema (Swing)
-├── controller/ # Controladores das ações
-├── model/ # Entidades do sistema
-├── dao/ # Acesso a banco de dados
-└── projeto/ # Classe principal
+ view/ # Telas do sistema (Swing)
+ controller/ # Controladores das ações
+ model/ # Entidades do sistema
+ dao/ # Acesso a banco de dados
+ projeto/ # Classe principal
 
