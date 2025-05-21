@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 import model.Aluno;
+import Controller.ControllerSpotfei;
+
 
 import view.Login;
 import view.Spotfei;
@@ -37,8 +39,10 @@ public class ControllerLogin {
                 Aluno aluno2 = new Aluno(res.getString("nome"), 
                                          res.getString("usuario"), 
                                          res.getString("senha"));
-                Spotfei aec = new Spotfei();
-                aec.setVisible(true);
+                Spotfei tela = new Spotfei();
+                ControllerSpotfei cs = new ControllerSpotfei(tela);
+                tela.setVisible(true);
+
             } else{
                 JOptionPane.showMessageDialog(view, 
                                               "Login NÃO efetuado!", 
